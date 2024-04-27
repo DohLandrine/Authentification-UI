@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sample_screen/screens/enter_your_otp.dart';
 import 'package:sample_screen/screens/forgot_password.dart';
 import 'package:sample_screen/screens/reset_password.dart';
 import 'package:sample_screen/screens/sign_in.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ResetPasswordScreen(),
+      home: OtpScreen(),
     );
   }
 }
